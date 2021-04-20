@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "52d8e6d1-4c64-4dd3-af20-4d62496983f4",
+  "alias": "ImageSliderWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "loadLegacyFabricCss": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "ImageSlider"
+      },
+      "description": {
+        "default": "ImageSlider description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "items": [
+          {
+            "header": "Image #1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque, ante a aliquam suscipit, sapien risus vestibulum augue, rhoncus ornare nulla tortor ac urna. Quisque et quam feugiat, venenatis arcu at, malesuada nisl.",
+            "enabled": "true",
+            "picture": "https://picsum.photos/1000/400",
+            "linkText": "Read More",
+            "linkUrl": "#"
+          },
+          {
+            "header": "Image #2",
+            "description": "Suspendisse finibus massa consectetur eros hendrerit, ut rutrum diam ultricies. Nullam tincidunt eu est tristique pretium. Cras molestie felis sit amet nunc ultricies varius. Proin a elementum arcu. Nunc posuere turpis et imperdiet consequat.",
+            "enabled": "true",
+            "picture": "https://picsum.photos/1000/400",
+            "LinkText": "Read More",
+            "LinkUrl": ""
+          },
+          {
+            "header": "Image #3",
+            "description": "Curabitur accumsan non lectus in accumsan. Maecenas pretium viverra orci, in faucibus felis dictum non. Nunc eget velit nisi. Pellentesque scelerisque iaculis lacus, sit amet dignissim dolor.",
+            "enabled": "true",
+            "picture": "https://picsum.photos/1000/400",
+            "linkText": "Read More",
+            "linkUrl": ""
+          }
+        ],
+        "bottomIndicators": true,
+        "prevNextControls": true,
+        "autoPlay": true,
+        "autoPlayInterval": 5,
+        "width": "100%",
+        "height": "",
+        "captionPosition": "center"
+      }
+    }
+  ]
+}

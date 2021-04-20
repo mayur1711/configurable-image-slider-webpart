@@ -1,0 +1,66 @@
+.imageSlider {
+  margin: auto;
+
+  :global {
+    @import "./bootstrap/bootstrap";
+
+    //This is a dummy class for bug fix.
+    //Please dont remove this class
+
+    .bug-fix {
+      display: none;
+    }
+
+    // custom css
+
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background: none;
+      border: 1px solid #fff;
+    }
+
+    .carousel-indicators li.active {
+      background: #fff;
+    }
+
+    .carousel-caption {
+      bottom: 25px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10%;
+    }
+
+    .left-align {
+      top: 20px;
+      left: 10%;
+      right: 50%;
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+
+    .right-align {
+      top: 20px;
+      left: 50%;
+      right: 10%;
+      text-align: right;
+      display: flex;
+      align-items: center;
+    }
+
+    .btn-primary {
+      background-color: #0854a9;
+      border-color: #0854a9;
+      border-radius: 0;
+    }
+
+    .btn-primary:hover {
+      background-color: #221f1f;
+      border-color: #221f1f;
+    }
+  }
+}
