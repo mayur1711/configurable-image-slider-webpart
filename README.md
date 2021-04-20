@@ -1,0 +1,1 @@
+# configurable-image-slider-webpart
