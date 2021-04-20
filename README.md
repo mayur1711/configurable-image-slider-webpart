@@ -11,12 +11,12 @@ The property pane image below shows the different configuration options availabl
 
 - **Image Slider**
 
-  <img alt="Image Slider" src="https://github.com/mayur1711/rss-feed-viewer-webpart/blob/main/output/Image Slider.jpg" style="width:100%;max-width:800px"/>
+  <img alt="Image Slider" src="https://github.com/mayur1711/configurable-image-slider-webpart/blob/main/output/Image Slider.jpg" style="width:100%;max-width:800px"/>
   <br><br>
 
 - **Property Pane**
 
-  <img alt="Expanded Layout" src="https://github.com/mayur1711/rss-feed-viewer-webpart/blob/main/output/Property Pane.jpg" />
+  <img alt="Expanded Layout" src="https://github.com/mayur1711/configurable-image-slider-webpart/blob/main/output/Property Pane.jpg" />
 
 <br>
 
