@@ -26,7 +26,7 @@ The property pane image below shows the different configuration options availabl
 
 <br>
 
-## Adhoc Frameworks/Components used:
+## Frameworks/Components used:
 
 - React JS
 - Bootstrap
